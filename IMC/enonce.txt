@@ -1,0 +1,23 @@
+Créez une calculatrice d'IMC qui permet à l'utilisateur de saisir son poids (en kilogrammes) et sa taille (en mètres), puis affiche l'IMC correspondant.
+L'Indice de Masse Corporelle (IMC) est calculé en divisant le poids (en kilogrammes) par le carré de la taille (en mètres). La formule est la suivante :
+makefile
+
+IMC = poids / (taille * taille) 
+Une fois que l'utilisateur a saisi son poids et sa taille, vous devez calculer l'IMC et l'afficher à l'utilisateur avec une indication de la catégorie correspondante :
+Moins de 18.5 : Insuffisance pondérale
+Entre 18.5 et 24.9 : Poids normal
+Entre 25 et 29.9 : Surpoids
+Entre 30 et 34.9 : Obésité de classe 1
+Entre 35 et 39.9 : Obésité de classe 2
+40 ou plus : Obésité de classe 3
+Vous pouvez également ajouter des fonctionnalités supplémentaires, telles que la validation des saisies utilisateur et la personnalisation de l'interface utilisateur.
+
+
+Underweight (Severe thinness)	< 16.0	
+Underweight (Moderate thinness)	16.0 – 16.9	
+Underweight (Mild thinness)	17.0 – 18.4	
+Normal range	18.5 – 24.9	
+Overweight (Pre-obese)	25.0 – 29.9	
+Obese (Class I)	30.0 – 34.9	
+Obese (Class II)	35.0 – 39.9	
+Obese (Class III)	≥ 40.0	
