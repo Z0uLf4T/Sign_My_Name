@@ -27,34 +27,32 @@ const letter2Sign = {
     "Z": "Alphabet videos/z_nm_1_1.mp4"
 }
 
-let signedName = [];
+let videoPathsArray = [];
 let videos = "";
 
 function signMyName(name) {
     let spelledName = name.split("");
-    signedName = spelledName.map(letter => letter2Sign[letter.toUpperCase()]);
-    return signedName;
-}
-
-//console.log(signMyName("bertrand"));
-
-function displaySign() {
-    let name = document.getElementById("entered_name").value;
-    console.log(name);
-    signMyName(name);
-    console.log("video path list :" + signedName);
-    getVideos(signedName);
-    console.log(videos);
-    document.getElementById("LSFvideos").innerHTML = videos;
+    videoPathsArray = spelledName.map(letter => letter2Sign[letter.toUpperCase()]);
+    return videoPathsArray;
 }
 
 
-function getVideos(array) {
-    for (let index = 0; index < array.length; index++) {
-        let videopath = array[index];
+function getVideos(videoPathsArray) {
+    for (let index = 0; index < videoPathsArray.length; index++) {
+        let videopath = videoPathsArray[index];
         videos += `<video class="videos" src="${videopath}" controls></video>`;
     }
     return videos;
+}
+
+function displaySign() {
+    let name = document.getElementById("entered_name").value;
+    //console.log(name);
+    signMyName(name);
+    //console.log("video path list :" + videoPathsArray);
+    getVideos(videoPathsArray);
+    //console.log(videos);
+    document.getElementById("LSFvideos").innerHTML = videos;
 }
 
 function mergeVideos(array){
