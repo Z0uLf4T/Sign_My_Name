@@ -1,3 +1,65 @@
-.videos {
-    height: 200px;
+body {
+    display: flex;
+    flex-direction: column;
+    background: #6d96ba;
+}
+
+#website_name {
+    color: #d08c49;
+}
+
+#entered_name {
+    background-color: #FDE49E;
+    color:#6d96ba
+}
+
+#submit_button {
+    cursor: pointer;
+    position: relative;
+    padding: 10px 24px;
+    font-size: 18px;
+    color: #FDE49E;
+    border: 2px solid #FDE49E;
+    border-radius: 34px;
+    background-color: transparent;
+    font-weight: 600;
+    transition: all 0.3s cubic-bezier(0.23, 1, 0.320, 1);
+    overflow: hidden;
+}
+
+#submit_button::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+    border-radius: inherit;
+    scale: 0;
+    z-index: -1;
+    background-color: #FDE49E;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+#submit_button:hover::before {
+    scale: 3;
+}
+
+#submit_button:hover {
+    color: #212121;
+    scale: 1.1;
+    box-shadow: 0 0px 20px rgba(193, 163, 98, 0.4);
+}
+
+#submit_button:active {
+    scale: 1;
+}
+
+video {
+    height: 240px;
+    max-width: 100%
+}
+
+#video_container {
+    background: #DD761C;
 }

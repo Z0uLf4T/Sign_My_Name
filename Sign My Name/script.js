@@ -38,23 +38,19 @@ function signMyName(name) {
 
 
 function getVideos(videoPathsArray) {
-    for (let index = 0; index < videoPathsArray.length; index++) {
-        let videopath = videoPathsArray[index];
-        videos += `<video class="videos" src="${videopath}" controls></video>`;
-    }
-    return videos;
-}
+    let array = videoPathsArray;
+    videos = `${array[0]}`;
+    document.getElementById("LSFvideos").src = videos;
+    const video = document.querySelector("#LSFvideos");
+    video.addEventListener('ended', function (e) {
+            let removed = array.shift();
+            videos = `${array[0]}`;
+            document.getElementById("LSFvideos").src = videos;
+    });
+};
 
 function displaySign() {
     let name = document.getElementById("entered_name").value;
-    //console.log(name);
     signMyName(name);
-    //console.log("video path list :" + videoPathsArray);
     getVideos(videoPathsArray);
-    //console.log(videos);
-    document.getElementById("LSFvideos").innerHTML = videos;
-}
-
-function mergeVideos(array){
-    
 }
