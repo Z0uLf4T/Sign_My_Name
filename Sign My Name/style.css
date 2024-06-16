@@ -6,10 +6,18 @@ body {
     background: #6d96ba;
 }
 
+header {
+    margin: 15px;
+    background: #DD761C;
+    height: fit-content;
+    width: fit-content;
+    padding: 10px 24px;
+    border: 2px solid #FDE49E;
+    border-radius: 34px;
+}
 
 #website_name {
-    color: #d08c49;
-    text-shadow: 0 0 8px #FDE49E;
+    color: #FDE49E;
     font-family: "Comfortaa", sans-serif;
     font-optical-sizing: auto;
     font-weight: 600;
@@ -92,7 +100,8 @@ video {
     position: relative;
     border: 2px solid #DD761C;
     border-radius: 34px;
-    box-shadow: 0 0 0 0.2rem #FDE49E; 
+    box-shadow: 0 0 0 0.2rem #FDE49E;
+    background: #DD761C; 
 }
 
 #video_container {
