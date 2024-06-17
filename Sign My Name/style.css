@@ -12,8 +12,9 @@ header {
     height: fit-content;
     width: fit-content;
     padding: 10px 24px;
-    border: 2px solid #FDE49E;
+    border: 2px solid #6d96ba;
     border-radius: 34px;
+    box-shadow: 0 0 0 0.2rem #FDE49E;
 }
 
 #website_name {
@@ -31,7 +32,8 @@ header {
     font-size: 18px;
     color: #6d96ba;
     background-color: #FDE49E;
-    border: 2px solid #DD761C;
+    border: 2px solid #6d96ba;
+    box-shadow: 0 0 0 0.2rem #FDE49E;
     border-radius: 34px;
     font-family: "Comfortaa", sans-serif;
     font-optical-sizing: auto;
@@ -86,8 +88,8 @@ header {
 #submit_button:hover {
     color: #6d96ba;
     scale: 1.1;
-    box-shadow: 0 0px 20px rgba(193, 163, 98, 0.4);
-    border: 2px solid #DD761C;
+    border: 2px solid #6d96ba;
+    box-shadow: 0 0 0 0.2rem #DD761C; 
 }
 
 #submit_button:active {
@@ -98,7 +100,7 @@ video {
     height: 300px;
     max-width: 100%;
     position: relative;
-    border: 2px solid #DD761C;
+    border: 2px solid #6d96ba;
     border-radius: 34px;
     box-shadow: 0 0 0 0.2rem #FDE49E;
     background: #DD761C; 
