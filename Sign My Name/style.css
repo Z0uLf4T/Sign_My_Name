@@ -3,22 +3,22 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    background: #6d96ba;
+    background: #f5f1e4;
 }
 
 header {
     margin: 15px;
-    background: #DD761C;
+    background: #f5f1e4;
     height: fit-content;
     width: fit-content;
     padding: 10px 24px;
-    border: 2px solid #6d96ba;
+    border: 2px solid #f5f1e4;
     border-radius: 34px;
-    box-shadow: 0 0 0 0.2rem #FDE49E;
+    box-shadow: 0 0 0 0.2rem #6d96ba;
 }
 
 #website_name {
-    color: #FDE49E;
+    color: #6d96ba;
     font-family: "Comfortaa", sans-serif;
     font-optical-sizing: auto;
     font-weight: 600;
@@ -30,10 +30,10 @@ header {
     position: relative;
     padding: 10px 20px;
     font-size: 18px;
-    color: #6d96ba;
-    background-color: #FDE49E;
-    border: 2px solid #6d96ba;
-    box-shadow: 0 0 0 0.2rem #FDE49E;
+    color: #f5f1e4;
+    background-color: #6d96ba;
+    border: 2px solid #f5f1e4;
+    box-shadow: 0 0 0 0.2rem #6d96ba;
     border-radius: 34px;
     font-family: "Comfortaa", sans-serif;
     font-optical-sizing: auto;
@@ -46,7 +46,7 @@ header {
 
 #entered_name:focus {
     border: 2px solid #6d96ba;
-    box-shadow: 0 0 0 0.2rem #DD761C; 
+    box-shadow: 0 0 0 0.2rem #FDE49E; 
 }
 
 #submit_button {
@@ -54,8 +54,8 @@ header {
     position: relative;
     padding: 10px 24px;
     font-size: 18px;
-    color: #FDE49E;
-    border: 2px solid #FDE49E;
+    color: #6d96ba;
+    border: 2px solid #6d96ba;
     border-radius: 34px;
     background-color: transparent;
     font-weight: 600;
@@ -88,8 +88,8 @@ header {
 #submit_button:hover {
     color: #6d96ba;
     scale: 1.1;
-    border: 2px solid #6d96ba;
-    box-shadow: 0 0 0 0.2rem #DD761C; 
+    border: 2px solid #FDE49E;
+    box-shadow: 0 0 0 0.2rem #6d96ba; 
 }
 
 #submit_button:active {
@@ -100,10 +100,9 @@ video {
     height: 300px;
     max-width: 100%;
     position: relative;
-    border: 2px solid #6d96ba;
+    border: 2px solid #FDE49E;
     border-radius: 34px;
-    box-shadow: 0 0 0 0.2rem #FDE49E;
-    background: #DD761C; 
+    box-shadow: 0 0 0 0.2rem #6d96ba;
 }
 
 #video_container {

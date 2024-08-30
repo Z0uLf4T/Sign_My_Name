@@ -51,7 +51,7 @@ function getVideos(videoPathsArray) {
 
 function replayVideos(){
     
-}
+};
 
 function displaySign() {
     let name = document.getElementById("entered_name").value;
