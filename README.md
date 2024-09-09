@@ -13,7 +13,9 @@ Signe Mon Nom permet à l'utilisateur d'entrer un nom et d'obtenir une vidéo de
 
 ## Stack
 
-
+- Javascript
+- CSS
+- HTML
 
 ## Découpage du projet
 
@@ -27,6 +29,7 @@ _JS_
 --> Affichage dynamique des vidéos (une après l'autre)
 
 ## Fonctionnalités à développer
+
 - Bouton replay pour rejouer les vidéos
 - Gestion des caractères entrés en input (seulement des lettres + gestion des prénoms composés)
 - Permettre de stocker les vidéos dans une liste de favoris
