@@ -27,7 +27,7 @@ _JS_
 --> Affichage dynamique des vidéos (une après l'autre)
 
 ## Fonctionnalités à développer
->>Bouton replay pour rejouer les vidéos
->>Gestion des caractères entrés en input (seulement des lettres + gestion des prénoms composés)
->>Permettre de stocker les vidéos dans une liste de favoris
->>Améliorer le fondu de l'enchaînement des vidéos
+- Bouton replay pour rejouer les vidéos
+- Gestion des caractères entrés en input (seulement des lettres + gestion des prénoms composés)
+- Permettre de stocker les vidéos dans une liste de favoris
+- Améliorer le fondu de l'enchaînement des vidéos
