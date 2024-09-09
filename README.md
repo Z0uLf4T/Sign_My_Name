@@ -33,4 +33,5 @@ _JS_
 - Bouton replay pour rejouer les vidéos
 - Gestion des caractères entrés en input (seulement des lettres + gestion des prénoms composés)
 - Permettre de stocker les vidéos dans une liste de favoris
+- Permettre à l'utilisateur de revenir sur chaque séparément
 - Améliorer le fondu de l'enchaînement des vidéos
